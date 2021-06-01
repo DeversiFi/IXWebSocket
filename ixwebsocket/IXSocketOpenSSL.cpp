@@ -13,6 +13,8 @@
 #include <cassert>
 #include <errno.h>
 #ifdef _WIN32
+#include <windows.h>
+#include <wincrypt.h>
 #include <Shlwapi.h>
 #else
 #include <fnmatch.h>
